@@ -1,34 +1,25 @@
+<p style="font-style:italic">I want to tell you a story. Not entirely, but only the very beginning, because the ending of this story became a legend of programming—as well as its heroes.</p>
+<p style="font-style:italic">When computers were large, when trees were small, when the sun shined brighter… Once upon a time there were Three Programmers. I doubt whether they participated in any programming contests, because there were no contests at that ancient time. There was neither ACM ICPC nor Timus Online Judge. But there were Three Programmers.</p>
 <p>
-    <i>( Describe task in general )</i>
+One day Three Programmers invented an amusing game to train memory and mental faculties. The First Programmer thought out a string S which was passed it to the Second and the Third Programmers. The Second Programmer executed X successive cycle shifts (a cycle shift is a transfer of the last character of the string to the beginning of this string) with this string. As a result of these operations a string T was produced, and the Second Programmer passed it to the Third Programmer. A task of the Third Programmer was to find the number X or make sure that the Second Programmer was mistaken, because the string T could not be produced from the string S via cycle shifts.
+</p>
+
+
+<p>
+    <strong>Input: </strong> Two arguments, two strings. initial string and result string
 </p>
 
 <p>
-    Sum two passed ints
-</p>
-
-<p style="text-align: center;">
-    <img class="for_info_only" title="example" src="{{MEDIA}}example.png" alt="example" width="392px"/>
-    <img class="for_editor_only" title="example" src="{{MEDIA}}example.png" alt="example" width="380px"/>
-</p>
-
-<p><i>( Explain input and output values )</i></p>
-<p>
-    <strong>Input: </strong> Two arguments. Both are int
-</p>
-
-<p>
-    <strong>Output: </strong> Int. 
+    <strong>Output: </strong> Amount of shifts
 </p>
 
 
 
 <div class="for_info_only">
-    <p><i>( Put some usage examples )</i></p>
     <p>
         <strong>Example:</strong>
     </p>
     <pre class="brush: python">
-checkio(3, 2) == 5
-checkio(5, 7) == 12
+    checkio("abracadabra", "racadabraab") == 9
     </pre>
 </div>
