@@ -13,6 +13,11 @@ TESTS = {
         {
             "input": ["abracadabra", "racadabraab"],
             "answer": 9
+        },
+        
+        {
+            "input": ["abracadabra", "cadabraabra"],
+            "answer": 7
         }
     ]
 }
